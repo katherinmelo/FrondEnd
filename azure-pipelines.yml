@@ -47,4 +47,3 @@ stages:
     environment:
       name: Frontend
       resourceType: VirtualMachine
-      tags: web1
