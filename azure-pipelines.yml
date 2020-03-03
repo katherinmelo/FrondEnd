@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '27cb8a46-5aa4-4795-82f3-8c9c5d18311b'
   imageRepository: 'movies'
   containerRegistry: 'holiwiii.azurecr.io'
-  Dockerfilepath: '**/Dockerfile'
+  Dockerfilepath: '/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
@@ -41,4 +41,5 @@ stages:
         Dockerfile: $(Dockerfilepath)
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
-          $(tag)
+          $(tag)  
+
