@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'acc0afd6-0d3c-4e1f-8191-509061c63a1f'
+  dockerRegistryServiceConnection: 'ACRrampup'
   imageRepository: 'katherinmelofrondend'
   containerRegistry: 'rampupacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
