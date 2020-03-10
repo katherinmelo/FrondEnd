@@ -38,4 +38,3 @@ stages:
         tags: |
           $(tag)
           
-          
